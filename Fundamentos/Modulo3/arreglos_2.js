@@ -4,11 +4,11 @@ console.log('Largo:' ,juegos.length);
 
 let ultimo= juegos[juegos.length-1];
 console.log({ultimo});
-
+console.warn('hace esto');
 juegos.forEach((elemento,indice,arr)=>{
     console.log({elemento,indice,arr});
 });
-
+console.warn('final');
 //añadir al final
 let nuevaLogitud = juegos.push ('Angry Birds');
 console.log({nuevaLogitud,juegos});
