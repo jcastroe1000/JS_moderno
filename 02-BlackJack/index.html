@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BlackJack</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+    <link rel="stylesheet" href="../02-BlackJack/assets/css/style.css">
+    
+</head>
+<body>
+    <header class="titulo">Juego BlackJack</header>
+    <div class="row mt-2">
+        <div id='divbotones' class="col text-center">
+        
+            <button id='nuevo' class="btn btn-danger">Nuevo Juego</button>
+            <button id='pedir' class="btn btn-primary">Pedir carta</button>
+            <button id='detener' class="btn btn-primary">Detener</button>        
+
+        </div>
+    </div>
+
+    <div class="row container">
+        <div class="col">
+            <h1>Jugador 1 - <small>0</small></h1>
+            <div id="jugador-cartas" class="divCartas">
+            </div>
+        </div>
+    </div>
+
+    <div class="row container">
+        <div class="col">
+            <h1>Máquina - <small>0</small></h1>
+            <div id="maquina-cartas" class="divCartas">
+            </div>
+        </div>
+    </div>
+    <script src="../02-BlackJack/assets/js/underscrore-min.js"></script>
+    <script src="../02-BlackJack/assets/js/juego-min.js"></script>
+    
+    
+</body>
+
+</html>
